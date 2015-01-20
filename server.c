@@ -116,7 +116,7 @@ void main()
 	{
 		pthread_join(threadarg[i].pid,NULL);
 	}
-	printf("sneding succeed!\n");
+	printf("sending succeed!\n");
 	printf("timing end!\n");
 	t_end=time(NULL);
 	printf("time of transmission:%.0fs\n",difftime(t_end,t_start));
